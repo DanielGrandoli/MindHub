@@ -9,57 +9,76 @@ main{
 }
 header{
     background-color: #ABC270;
+    height: 90px;
 }
 nav{
     text-align: right;
+    position: relative;
+    margin-top: -25px;
 }
 article{
     margin: 15px;
     width: 900px;
 }
 
+.seleccion{
+    background-color: rgb(112, 173, 71);
+}
+
 nav a{
+    font-size: 20px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.433) ;
     text-align: center;
     color: white;
     display: inline-block;
     text-decoration: none;
-    width: 140px;
-    height: 40px;
+    width: 116px;
+    height: 30px;
     border: 3px solid black;
-    padding: 10px;
-    margin: 10px;
+    padding: 1px;
+    margin: 5px;
     background-color: rgb(68, 114, 196);
 }
 
-img{
+ .banner{
     width: 100%;
+    height: 350px;
+}
+
+figure{
+    height: 350px;
 }
 
 nav a:hover{
-    background-color: rgb(112, 173, 71)
+    background-color: rgb(112, 173, 71);
 }
 header h1{
     display: inline-block;
-    font-size: 80px;
+    font-size: 75px;
 }
 
 section h2{
     display: block;
     text-align: center;
     border: 3px solid black;
+
 }
 section p{
     display: block;
-    width: 700px;
+    width: 670px;
     margin: 10px;
+}
+section img{
+    width: 100%;
+   
 }
 
 .logo{
     display: inline-block;
-    margin-top: 50px; 
+    margin-top: 40px; 
     width: 150px;
 }
+
 
 div{
     display: inline-block;
